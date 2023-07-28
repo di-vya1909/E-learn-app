@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/registerimage3"
+    tools:context=".bca.BcaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Semester"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:id="@+id/firstSem"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD PDF"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/upload_button_bg"
+            android:layout_weight="1"
+            android:id="@+id/firstSemUpload"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Semester"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:id="@+id/secondSem"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD PDF"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/upload_button_bg"
+            android:layout_weight="1"
+            android:id="@+id/secondSemUpload"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third Semester"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:id="@+id/thirdSem"
+            android:padding="11dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD PDF"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/upload_button_bg"
+            android:id="@+id/thirdSemUpload"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fourth Semester"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:id="@+id/fourthSem"
+            android:padding="11dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD PDF"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/upload_button_bg"
+            android:id="@+id/fourthSemUpload"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fifth Semester"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:id="@+id/fifthSem"
+            android:padding="11dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD PDF"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/upload_button_bg"
+            android:id="@+id/fifthSemUpload"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sixth Semester"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:id="@+id/sixthSem"
+            android:padding="11dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD PDF"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/upload_button_bg"
+            android:id="@+id/sixthSemUpload"
+            android:padding="8dp"/>
+    </LinearLayout>
+</LinearLayout>

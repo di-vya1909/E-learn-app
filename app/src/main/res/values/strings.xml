@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EducationNotes</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_enrollment_number">Enter Your Enrollment Number</string>
+    <string name="your_class">Enter Your Class</string>
+    <string name="enter_your_year">Enter your Class year</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="already_have_an_account">Already have an Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="course_name">Course Name</string>
+    <string name="course_full_name">Course Full Name</string>
+    <string name="retype_enrollment_number">Retype Enrollment Number</string>
+    <string name="text_notes">Text Notes</string>
+    <string name="e_books">E-Books</string>
+    <string name="question_papers">Question Papers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="english">Communicative English</string>
+    <string name="maths">Basic Mathematics</string>
+    <string name="fundamentals">Computer Fundamentals</string>
+    <string name="c">Introduction To C Language</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="enter_pdf_name">Enter PDF Name</string>
+    <string name="pdf_type">PDF For...</string>
+    <string name="do_you_want_to_upload_pdf">Do You Want To Upload PDF</string>
+    <string name="back">BACK</string>
+    <string name="select_type">Select PDF Type</string>
+</resources>

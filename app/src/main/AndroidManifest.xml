@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31"
+        android:largeHeap="true">
+        <activity
+            android:name=".bca.sixthsem.QuestionPapersSixthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.sixthsem.EBooksSixthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.sixthsem.NotesSixthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.sixthsem.UploadPdfSixthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.sixthsem.BCA_Sixth_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fifthsem.UploadPdfFifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fifthsem.QuestionPapersFifthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fifthsem.NotesFifthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fifthsem.EBooksFifthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fifthsem.BCA_Fifth_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fourthsem.UploadPdfFourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fourthsem.QuestionPapersFourthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fourthsem.NotesFourthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fourthsem.EBooksFourthUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.fourthsem.BCA_Fourth_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.thirdsem.QuestionPapersThirdUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.thirdsem.NotesThirdUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.thirdsem.EBooksThirdUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.thirdsem.UploadPdfThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.thirdsem.BCA_Third_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.secondsem.NotesSecondUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.secondsem.EBooksSecondUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.secondsem.QuestionPapersSecondUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.secondsem.UploadPdfSecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.secondsem.BCA_Second_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.firstsem.QuestionPapersUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.firstsem.EBooksUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.firstsem.NotesUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.firstsem.uploadPdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.firstsem.BCA_First_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bca.BcaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".logInActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

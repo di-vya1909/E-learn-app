@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal">#009688</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3370B3</color>
+
+    <color name="teal_700">#FF018786</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <color name="colorPrimaryDark">#3262C4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorRed">#C11515</color>
+    <color name="purpleDark">#FF210642</color>
+    <color name="yellowLight">#fff777</color>
+
+    <color name="orangeColor">#FF9B07</color>
+    <color name="greenColor">#44CA0B</color>
+    <color name="pinkColor">#F11251</color>
+
+    <!-- Add your other color resources here -->
+    <color name="splashBackground">#0077ff</color>
+</resources>
